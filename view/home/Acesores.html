@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../../static/css/cb.css">
+  <link rel="icon" type="image/png" href="../../static/image/C.png">
+  <title>Ceaprende - circulo</title>
+  
+</head>3
+<body>
+  <div class="menuswitch menuHide">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="menu menuHide">
+    <a href="index.html">
+      <img class="menu__icon" src="../../static/image/C.png" alt="El loguito no cargó :(">
+    </a>
+    <div class="linea"></div>
+    <ul class="menu__modulos">
+      <li><a class="menu__item" id="circulos" href="circulo-beta.html">Circulos</a></li>
+      <li><a class="menu__item" href="info-tabla.html">Sesiones</a></li>
+      <li><a class="menu__item" id="acesores" href="Acesores.html">Asesores</a></li>
+      <li><a class="menu__item" href="post.html">Posts</a></li>
+    </ul>
+  </div>
+  <div class="everything">
+    <div class="everything__child navigation">
+        <label for="search">
+            <img src="../../static/image/lupa.svg" alt="Lupa" class="navigation__icon-search">
+        </label>
+        <input class="navigation__search" id="search" type="text" placeholder="Ingrese su busqueda">
+    </div>
+    <div class="everything__child content">
+      <div class="card-container">
+        <div class="card">
+            <img src="#" alt="Docente 1" class="avatar">
+            <div class="info">
+                <h2>Nombre del Docente 1</h2>
+                <p>Área de Especialización</p>
+                <p>Correo Electrónico: docente1@example.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="#" alt="Docente 2" class="avatar">
+            <div class="info">
+                <h2>Nombre del Docente 2</h2>
+                <p>Área de Especialización</p>
+                <p>Correo Electrónico: docente2@example.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="#" alt="Docente 2" class="avatar">
+            <div class="info">
+                <h2>Nombre del Docente 3</h2>
+                <p>Área de Especialización</p>
+                <p>Correo Electrónico: docente2@example.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="#" alt="Docente 2" class="avatar">
+            <div class="info">
+                <h2>Nombre del Docente 4</h2>
+                <p>Área de Especialización</p>
+                <p>Correo Electrónico: docente2@example.com</p>
+            </div>
+        </div>
+      </div>
+      <script>
+        function toggleInfo(card) {
+          card.classList.toggle('active');
+        }
+      </script>
+    </div>
+  </div>
+  <script type="text/javascript" src="../../static/js/main.js"></script>
+</body>
+</html>
